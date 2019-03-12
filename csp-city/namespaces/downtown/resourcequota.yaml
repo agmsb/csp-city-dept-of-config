@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ResourceQuota
-metadata:
-  name: downtown-cpu-quota
-spec:
-  hard:
-    cpu: "1"
