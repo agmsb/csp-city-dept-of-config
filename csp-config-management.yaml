@@ -9,4 +9,4 @@ spec:
     secretType: ssh
     syncRepo: git@github.com:agmsb/csp-city-dept-of-config.git
     syncBranch: master
-    policyDir: boroughs
+    policyDir: cloudville
