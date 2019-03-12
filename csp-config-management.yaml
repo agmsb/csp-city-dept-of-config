@@ -1,0 +1,12 @@
+apiVersion: addons.sigs.k8s.io/v1alpha1
+kind: Nomos
+metadata:
+  name: nomos-csp-city
+  namespace: nomos-system
+spec:
+  enableHierarchicalResourceQuota: true
+  git:
+    secretType: ssh
+    syncRepo: git@github.com:agmsb/csp-city-dept-of-config.git
+    syncBranch: master
+    policyDir: csp-city-root
