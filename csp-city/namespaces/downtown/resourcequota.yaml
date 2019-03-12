@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ResourceQuota
 metadata:
-  name: cloudville-cpu-quota
+  name: downtown-cpu-quota
 spec:
   hard:
     cpu: "1"
